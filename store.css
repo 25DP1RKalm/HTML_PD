@@ -1,0 +1,137 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color: grey;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+}
+#logo {
+    display: flex;
+    align-items: center;
+}
+#logo img {
+    height: 50px;
+    width: auto;
+    background-color: #3DFAFF;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: #43C59E;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+nav a:hover {
+    background-color: #4ce0b4;
+    transition: 0.2s;
+}
+main {
+    background-color: grey;
+}
+.veikals {
+    background-color: lightgray;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#search {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+#search input {
+    height: 40px;
+    width: 750px;
+    margin-left: 50px;
+    font-size: 30px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#search input:focus {
+    outline: none;
+}
+#searchbutton {
+    background-color: white;
+    height: 40px;
+    width: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.2s;
+}
+#searchbutton img {
+    height: 40px;
+    width: auto;
+    margin-left: 10px;
+}
+#searchbutton:hover {
+    background-color: rgb(163, 163, 163);
+    transition: 0.2s;
+}
+#filter {
+    text-decoration: none;
+    color: white;
+    background-color: #3D7068;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 50px;
+    transition: 0.2s;
+}
+#filter img {
+    height: 20px;
+    width: auto;
+    margin-left: 10px;
+}
+#filter:hover {
+    background-color: #23413c;
+    transition: 0.2s;
+}
+.preces {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lieta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3D7068;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.2s;
+    width: 300px;
+}
+.lieta img {
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    transition: 0.2s;
+    background-color: white;
+}
+.lieta h3 {
+    background-color: #43C59E;
+    padding: 10px;
+    border-radius: 10px;
+}
+.lieta p {
+    background-color: #3DFAFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.lieta:hover {
+    background-color: #59a095;
+    transition: 0.2s;
+}
+footer {
+    background-color: lightgrey;
+    padding: 20px;
+}
