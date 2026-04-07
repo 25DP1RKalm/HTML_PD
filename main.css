@@ -95,6 +95,10 @@ main {
     background-color: #59a095;
     transition: 0.2s;
 }
+.lietalink {
+    text-decoration: none;
+    color: black;
+}
 footer {
     background-color: lightgrey;
     padding: 20px;
