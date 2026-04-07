@@ -69,7 +69,6 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: #3D7068;
-    margin: 20px;
     border-radius: 20px;
     transition: 0.2s;
     width: 300px;
@@ -98,6 +97,8 @@ main {
 .lietalink {
     text-decoration: none;
     color: black;
+    margin: 20px;
+    border-radius: 20px;
 }
 footer {
     background-color: lightgrey;
