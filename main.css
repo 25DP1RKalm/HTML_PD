@@ -55,7 +55,7 @@ main {
 }
 .sep {
     height: 1px;
-    background-color: #14453D;
+    background-color: black;
     margin-left: 30px;
     margin-right: 30px;
 }
