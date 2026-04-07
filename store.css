@@ -51,10 +51,11 @@ main {
     height: 40px;
     width: 750px;
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 25px;
     border: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    padding-left: 10px;
 }
 #search input:focus {
     outline: none;
@@ -68,9 +69,10 @@ main {
     transition: 0.2s;
 }
 #searchbutton img {
-    height: 40px;
+    height: 30px;
     width: auto;
     margin-left: 10px;
+    padding: 5px;
 }
 #searchbutton:hover {
     background-color: rgb(163, 163, 163);
@@ -130,6 +132,10 @@ main {
 .lieta:hover {
     background-color: #59a095;
     transition: 0.2s;
+}
+.lietalink {
+    text-decoration: none;
+    color: black;
 }
 footer {
     background-color: lightgrey;
