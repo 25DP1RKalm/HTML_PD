@@ -20,7 +20,7 @@ header {
     margin-left: 10px;
     margin-right: 10px;
 }
-nav a {
+#Negalvenais {
     text-decoration: none;
     color: black;
     background-color: #43C59E;
@@ -30,8 +30,22 @@ nav a {
     border-radius: 10px;
     transition: 0.2s;
 }
-nav a:hover {
+#Negalvenais:hover {
     background-color: #4ce0b4;
+    transition: 0.2s;
+}
+#Galvenais {
+    text-decoration: none;
+    color: white;
+    background-color: #3D7068;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+#Galvenais:hover {
+    background-color: #11352a;
     transition: 0.2s;
 }
 main {
